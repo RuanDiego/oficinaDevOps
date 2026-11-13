@@ -3,5 +3,5 @@ const assert = require('node:assert');
 const { saudar } = require('./app');
 
 test('deve retornar a saudação correta', () => {
-  assert.strictEqual(saudar('PETI'), 'Olá, PETI! tudo bem?5');
+  assert.strictEqual(saudar('PETI'), 'Olá, PETI! tudo bem?');
 });
